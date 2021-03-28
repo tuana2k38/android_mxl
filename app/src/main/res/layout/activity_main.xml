@@ -8,27 +8,40 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="30sp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FF1744"
+        android:text="hello"
         android:textColor="#2259FF"
-        android:background="#B5FF9100"
-        android:text="TextView" />
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
         android:textSize="30sp"
         android:textColor="#F50057"
         android:background="#B5FF9100"
-        android:text="TextView" />
+        android:text="world" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
         android:textSize="30sp"
         android:textColor="#76FF03"
-        android:background="#B5FF9100"
-        android:text="TextView" />
+        android:background="#3D5AFE"
+        android:text="car" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:textColor="#76FF03"
+        android:background="#FF9100"
+        android:text="bike" />
 </LinearLayout>
