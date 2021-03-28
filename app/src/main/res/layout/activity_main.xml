@@ -6,15 +6,34 @@
     android:layout_width="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView
-        android:id="@+id/textView"
+
+    <LinearLayout
+        android:weightSum="3"
+        android:orientation="vertical"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="#FF1744"
-        android:text="hello"
-        android:textColor="#2259FF"
-        android:textSize="30sp" />
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#FF1744"
+            android:text="hello"
+            android:textColor="#2259FF"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/textView_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#76FF03"
+            android:text="hello"
+            android:textColor="#2259FF"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textView2"
